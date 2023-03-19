@@ -1,0 +1,130 @@
+.bn54 {
+            position: relative;
+            outline: none;
+            text-decoration: none;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            text-transform: uppercase;
+            height: 45px;
+            width: 130px;
+            opacity: 1;
+            background-color: #ffffff;
+            border: 1px solid rgba(0, 0, 0, 0.6);
+        }
+
+        .bn54 .bn54span {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #000000;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0.7px;
+        }
+
+        .bn54:hover {
+            animation: bn54rotate 0.7s ease-in-out both;
+        }
+
+        .bn54:hover .bn54span {
+            animation: bn54storm 0.7s ease-in-out both;
+            animation-delay: 0.06s;
+        }
+
+        @keyframes bn54rotate {
+            0% {
+                transform: rotate(0deg) translate3d(0, 0, 0);
+            }
+            25% {
+                transform: rotate(3deg) translate3d(0, 0, 0);
+            }
+            50% {
+                transform: rotate(-3deg) translate3d(0, 0, 0);
+            }
+            75% {
+                transform: rotate(1deg) translate3d(0, 0, 0);
+            }
+            100% {
+                transform: rotate(0deg) translate3d(0, 0, 0);
+            }
+        }
+
+        @keyframes bn54storm {
+            0% {
+                transform: translate3d(0, 0, 0) translateZ(0);
+            }
+            25% {
+                transform: translate3d(4px, 0, 0) translateZ(0);
+            }
+            50% {
+                transform: translate3d(-3px, 0, 0) translateZ(0);
+            }
+            75% {
+                transform: translate3d(2px, 0, 0) translateZ(0);
+            }
+            100% {
+                transform: translate3d(0, 0, 0) translateZ(0);
+            }
+        }
+
+        .vertical-menu {
+            height: 20px;
+            line-height: 20px;
+            padding: 15px;
+        }
+
+        .vertical-menu a {
+            background-color: white;
+            color: black;
+            display: block;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+        }
+
+        .vertical-menu a:hover {
+            background-color: #ccc;
+        }
+
+        .vertical-menu a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+        .br {
+            display: block;
+            margin-bottom: 0em;
+        }
+
+        .brmedium {
+            display: block;
+            margin-bottom: 1em;
+        }
+
+        .brlarge {
+            display: block;
+            margin-bottom: 2em;
+        }
+
+        .myButton {
+            box-shadow:inset 0px 1px 0px 0px #ffffff;
+            background-color:transparent;
+            border-radius:6px;
+            border:1px solid #3d183d;
+            display:inline-block;
+            cursor:pointer;
+            color:#3d1c3d;
+            font-family:Arial;
+            font-size:11px;
+            font-weight:bold;
+            padding:4px 8px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #f5ebf5;
+        }
+        .myButton:hover {
+            background-color:transparent;
+        }
+        .myButton:active {
+            position:relative;
+            top:1px;
+        }
